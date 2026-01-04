@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Advanced Product Analytics Dashboard
 
-## Getting Started
+A professional-grade, high-performance dashboard built with **Next.js 15**, **Redux Toolkit**, and **Tailwind CSS v4**. This project demonstrates a scalable architecture, sophisticated data orchestration, and a premium user experience with full Dark Mode support.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 15 App Router:** Leveraging Server Components for optimal performance and SEO.
+- **Advanced Data Orchestration:** Custom Repository pattern to handle client-side sorting and data transformation.
+- **Real-time Analytics:** Interactive data visualization using Recharts.
+- **Redux State Management:** Global state for tracking "Recently Viewed" products across sessions.
+- **Tailwind v4 Design System:** Modern, variable-based styling with high-contrast accessibility.
+- **Fluid Theming:** Seamless Dark/Light mode toggle with system preference detection.
+- **Robust Filtering:** URL-driven search, category filtering, and multi-field sorting.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🏗️ Architecture at a Glance
 
-To learn more about Next.js, take a look at the following resources:
+The project follows a **Layered Architecture** to ensure clean separation of concerns:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1.  **Presentation Layer:** React Server Components (fetching) + Client Components (interactivity).
+2.  **Repository Layer:** Business logic, manual sorting, and data mapping.
+3.  **Service Layer:** Raw API communication with DummyJSON.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> **Note:** For a deep dive into the design patterns and technical decisions, please refer to the [ARCHITECTURE.md](./ARCHITECTURE.md) file.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Prerequisites
+
+- **Node.js:** 18.x or higher
+- **npm** or **yarn**
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/test-dashboard.git](https://github.com/your-username/test-dashboard.git)
+   cd test-dashboard
